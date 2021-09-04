@@ -47,7 +47,7 @@ class Bland:
     def getBlandInfo(self):
         return '<hr /><h3>产品类型</h3><p style="text-align: center;">' + self.industry + ',' + self.country + \
                '</p><hr /><h3>厂家介绍</h3><img src="http://info.aoyoumall.com/Mypicture/' + self.bland_num + \
-               '.jpg" /><p>' + self.info + '</p><hr /><h3>产品介绍</h3> '
+               '.jpg" /><p>' + self.info + '</p><hr/><h3>产品介绍</h3> '
 
     def getProductInfo(self):
         if len(self.product_list) == 0:
